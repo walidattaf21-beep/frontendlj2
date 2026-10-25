@@ -1,9 +1,12 @@
+import { NavLink } from 'react-router-dom';
+
 function Navigation() {
   return (
-    <nav>
-      <a href="/">Home</a>{' '}
-      <a href="/list">Lijst</a>{' '}
-      <a href="/detail">Detail</a>
+    <nav className="navigatie">
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="/list">Lijst</NavLink>
+      <NavLink to="/teams">Teams</NavLink>
+      <NavLink to="/favorieten">Favs</NavLink>
     </nav>
   );
 }

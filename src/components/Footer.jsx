@@ -1,7 +1,7 @@
 function Footer() {
   return (
-    <footer>
-      <p>&copy; 2026c Pokemon Team Manager</p>
+    <footer className="footer">
+      <p>Pokemon Team Manager</p>
     </footer>
   );
 }
