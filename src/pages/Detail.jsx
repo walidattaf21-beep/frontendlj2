@@ -14,7 +14,6 @@ function Detail({ teams, voegToeAanTeam, toggleFavoriet }) {
 
   if (!pokemon) return <p>Laden...</p>;
 
-  // Dit slaan we op in een team of bij favorieten
   const kort = { id: String(pokemon.id), name: pokemon.name };
 
   return (
